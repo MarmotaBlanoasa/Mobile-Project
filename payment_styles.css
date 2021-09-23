@@ -1,0 +1,1385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+@font-face {
+    font-family: 'Provicali';
+    src: url(./fonts/Provicali.otf);
+}
+@font-face {
+    font-family: 'Helvetica Now Display 500';
+    src: url(./fonts/HND-500.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Now Display 700' ;
+    src: url(./fonts/HND-700.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display Regular' ;
+    src: url(./fonts/HND-R.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Text';
+    src: url(./fonts/HelveticaNowText-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    align-self: center;
+}
+
+
+header{
+    z-index: 2;
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    width: 360px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background-color: #0042CA;
+    }
+    .logo{
+    position: absolute;
+    background-color:#C4C4C4;
+    width: 22px;
+    height: 22px;
+    left: 24px;
+    top: 17px;
+    }
+    
+    .nav-scrolled{
+        box-shadow: 1px 7px 2px -1px rgba(0,0,0,0.31);
+    }
+    
+    .logo-name{
+        position: absolute;
+        width: 68px;
+        height: 18px;
+        left: calc(50% - 68px/2 - 94px);
+        top: 19.5px;
+        
+        font-family: Provicali;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        
+        
+        color: #FFFFFF;
+    }
+    
+    
+    .logo-name h1{
+    position: absolute;
+    width: 68px;
+    height: 18px;
+    left: 0;
+    top: -12px;
+    color: #FFFFFF;
+    font-family: Provicali;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    }
+    .logo-name span{
+        position: abosolute;
+        margin-left: 50px;
+        top: 150px;
+        color: #ACC8FF;
+    }
+    
+    /* Menu Bar */
+    
+    #menu{
+    /* background-color: white; */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 300px;
+    top: -15px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 10px;
+    z-index: 2;
+    }
+    .bar{
+        height: 3px;
+        width: 52%;
+        background-color: white;
+        display: block;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+    #bar1{
+        transform: translateY(9px);
+    }
+    
+    #bar2{
+        transform: translateY(5px);
+    }
+    #bar3{
+        transform: translateY(1px);
+    }
+    
+    .nav li a{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 63px;
+    }
+    .nav li{
+        list-style: none;
+        padding: 16px 0;
+    }
+    .nav{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+    }
+    
+    
+    /* Menu List */
+    
+    .home-li{
+    position: absolute;
+    width: 360px;
+    height: 70px;
+    left: calc(50% - 360px/2);
+    top: 56px;
+    background-color: #0A4AD0;
+    }
+    
+    .first-li{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        left: calc(50% - 360px/2);
+        top: 126px;
+        background-color: #003299;
+    }
+    
+    .second-li{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        left: calc(50% - 360px/2);
+        top: 196px;
+        background: #0037A8;
+    }
+    .third-li{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        left: calc(50% - 360px/2);
+        top: 266px;
+        
+        background: #003299;
+    }
+    .forth-li{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        left: calc(50% - 360px/2);
+        top: 336px;
+        background: #0037A8;
+    }
+    
+    .fifth-li{
+        position: absolute;
+        width: 360px;
+        height: 70px;
+        left: calc(50% - 360px/2);
+        top: 406px;
+        
+        background: #003299;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    .li-placeholder{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 35px;
+        top: 25px;
+        
+        background: #C4C4C4;
+    }
+    
+    .li-text{
+        position: absolute;
+        top: 26px;
+        font-family: 'Helvetica Now Display Regular';
+        font-style: normal;
+        font-weight: normal;    
+    }
+    .bold{
+        font-weight: bold;
+    }
+    
+    .close{
+      left: -500px;  
+    }
+
+
+    /* Title And Arrow */
+    .arrow{
+        position: absolute;
+        width: 18.89px;
+        height: 18.89px;
+        left: 26.36px;
+        top: 79.32px;
+        
+        background: #C4C4C4;
+        border-radius: 2px;
+        transform: rotate(45deg);
+    }
+
+    .over-arrow{
+        position: absolute;
+        width: 18.89px;
+        height: 18.89px;
+        left: 30.27px;
+        top: 79.32px;
+        
+        background: white;
+        transform: rotate(45deg);
+    }
+
+    .pricing-title{
+        position: absolute;
+        width: 105px;
+        height: 34px;
+        left: 127px;
+        top: 54px;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 34px;
+        /* identical to box height, or 170% */
+        
+        text-align: center;
+        letter-spacing: 0.01em;
+        
+        /* Titles */
+        
+        color: #30417D;
+    }
+
+    .new-account-key{
+        position: absolute;
+        width: 360px;
+        height: 54px;
+        top: 123px;
+        
+        background: #0046D8;
+        box-shadow: 0px 4px 67px rgba(0, 95, 225, 0.05);
+        border-radius: 0px;
+    }
+
+    .new-account-key h1{
+        position: absolute;
+        width: 211px;
+        height: 24px;
+        left: 74px;
+        top: 0px;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        
+        letter-spacing: 0.01em;
+        
+        color: #FFFFFF;
+    }
+
+    /* Key Container */
+
+    .key-container{
+        position: absolute;
+        width: 360px;
+        height: 80px;
+        top: 177px;
+        
+        background: #0146C2;
+        box-shadow: 0px 4px 67px rgba(0, 95, 225, 0.05);
+    }
+
+    .key-icon{
+        position: absolute;
+        left: 39.25px;
+        top: 22.25px;
+        /* bottom: 6.22%; */
+    }
+
+    .key-text{
+        position: absolute;
+        width: 244px;
+        height: 26px;
+        left: 64px;
+        top: 1px;
+        bottom: 37px;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        
+        color: #FFFFFF;
+        
+    }
+
+    .already-acc{
+        position: absolute;
+        width: 160px;
+        height: 16px;
+        left: 100px;
+        top: 49px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #fff;
+    }
+
+    .download-container{
+        position: absolute;
+        width: 360px;
+        height: 245px;
+        top: 257px;
+        
+        background: #035DF8;
+        box-shadow: 0px 4px 4px rgba(1, 70, 194, 0.15);
+    }
+
+    .download-container-text{
+        position: absolute;
+        width: 277px;
+        height: 69px;
+        left: 41px;
+        top: 8px;
+        
+        font-family: 'Helvetica Now Display Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 165%;
+        /* or 23px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .send-email{
+        position: absolute;
+        width: 128px;
+        height: 46px;
+        left: 48px;
+        top: 107px;
+        
+        background: #0A59E8;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .send-email img{
+        position: absolute;
+        left: 13.44px;
+        top: 12.67px;
+    }
+
+    .send-email p{
+        position: absolute;
+        width: 74px;
+        height: 14px;
+        left: 36.77px;
+        top: 1px;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+        
+        letter-spacing: -0.005em;
+        
+        color: #FFFFFF;
+    }
+
+    .save-text{
+        position: absolute;
+        width: 128px;
+        height: 46px;
+        left: 184px;
+        top: 107px;
+        
+        background: #0A59E8;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 6px;  
+    }
+
+    .save-text img{
+        position: absolute;
+        left: 13.44px;
+        top: 12.67px;    
+    }
+
+    .save-text p{
+        position: absolute;
+        width: 74px;
+        height: 14px;
+        left: 36.77px;
+        top: 1px;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+        
+        letter-spacing: -0.005em;
+        
+        color: #FFFFFF;   
+    }
+
+    .save-key{
+        position: absolute;
+        width: 264px;
+        height: 47.84px;
+        left: 46px;
+        top: 175.51px;
+        
+        background: linear-gradient(180deg, #FFFFFF 0%, #DBE7FF 100%);
+        /* Drop Shadow */
+        
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
+    .save-key-button{
+        position: absolute;
+        width: 231px;
+        height: 28.9px;
+        left: 20px;
+        top: 9px;
+        margin: 0%;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 181.5%;
+        /* identical to box height, or 29px */
+        
+        text-align: center;
+        
+        color: #0039A0;
+    }
+
+    .key-saved{
+        position: absolute;
+        left: 18.45px;
+        top: 15.71px;
+        display: none;
+    }
+
+    .change-key-text{
+        left: 33px;
+    }
+
+    .order-summary-container{
+        position: absolute;
+        width: 328px;
+        height: 244px;
+        left: 16px;
+        top: 527px;
+        
+        background: #FFFFFF;
+        border: 1px solid #C6D8F0;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(1, 70, 194, 0.1);
+        border-radius: 6px;
+    }
+
+    .top-order-summary{
+        position: absolute;
+        width: 326px;
+        height: 58px;
+        
+        background: #0046D8;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .top-order-summary h1{
+        position: absolute;
+        width: 130px;
+        height: 16px;
+        left: 105px;
+        top: 23px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        
+        
+        color: #FCFEFF;
+    }
+
+    .months-plan{
+        position: absolute;
+        width: 264px;
+        height: 18px;
+        left: 32px;
+        top: 79px;
+        margin: 0;
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        
+        
+        /* Titles */
+        
+        color: #30417D;
+    }
+
+    .price-per-month{
+        position: absolute;
+        width: 132px;
+        height: 18px;
+        left: 32px;
+        top: 113px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        
+        
+        color: #30407D;
+    }
+
+    .discount-box{
+        position: absolute;
+        width: 80px;
+        height: 26px;
+        left: 216px;
+        top: 109px;
+        
+        background: #FF7347;
+        border: 1px solid #FB531E;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .discount-box h1{
+        position: absolute;
+        width: 64px;
+        height: 15px;
+        left: 9px;
+        top: 5px;
+        margin: 0%;
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        /* identical to box height, or 15px */
+        
+        text-align: right;
+        
+        color: #FFFFFF;
+    }
+
+    .bottom-order-container{
+        position: absolute;
+        width: 324px;
+        height: 84px;
+        top: 157px;
+        left: 1px;
+        
+        background: #F2F7FF;
+        box-shadow: 0px 4px 67px rgba(0, 95, 225, 0.05);
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .save-money{
+        position: absolute;
+        left: 32px;
+        top: 17.58px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        /* identical to box height, or 15px */
+        
+        text-align: right;
+        
+        color: #00BE2A;
+    }
+    .actual-price{
+        position: absolute;
+        width: 72px;
+        height: 15px;
+        left: 222px;
+        top: 20px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        /* identical to box height, or 15px */
+        
+        text-align: right;
+        text-decoration-line: line-through;
+        
+        color: #FB531E;
+    }
+    .cupon{
+        position: absolute;
+        left: 31.67px;
+        top: 48.5px;
+    }
+    .got-coupon{
+        position: absolute;
+        width: 73px;
+        height: 14px;
+        left: 54px;
+        top: 49px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+        
+        text-align: right;
+        
+        color: #0064F5;
+    }
+    .total-price{
+        position: absolute;
+        width: 132px;
+        height: 18px;
+        left: 162px;
+        top: 49px;
+        margin: 0%;
+        font-family: 'Helvetica Now Display Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        
+        text-align: right;
+        
+        color: #30407D
+    }
+
+    .total-price span{
+        margin: 0%;
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 18px */
+        
+        text-align: right;
+        
+        color: #30407D 
+    }
+
+    .payment-method{
+        position: absolute;
+        width: 360px;
+        height: 58px;
+        top: 799px;
+        
+        background: #0146C2;
+    }
+    .payment-method img{
+        position: absolute;
+        left: 69.33px;
+        top: 20.67px;
+    }
+
+    .payment-method p{
+        position: absolute;
+        width: 183px;
+        height: 16px;
+        left: 91px;
+        top: 22px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        
+        
+        color: #FFFFFF;
+    }
+
+    .payment-methods{
+        position: absolute;
+        width: 360px;
+        height: 291px;
+        top: 856px;
+        z-index: -100;
+
+    }
+
+    .credit-card{
+        position: relative;
+        width: 360px;
+        height: 73px;
+        /* top: 856px; */
+        
+        background: #FFFFFF;
+        border: 1px solid #EBF3FF;
+        box-sizing: border-box;
+    }
+
+    .input-credit-card{
+        position: absolute;
+        top: 26px;
+        left: 43px;
+        margin: 0%;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        color: #0146C2;
+        
+        background: #FFFFFF;
+        border: 1px solid #C6D8F0;
+    }
+
+    .credit-card-text{
+        position: absolute;
+        width: 108px;
+        height: 25.5px;
+        left: 84px;
+        top: 23px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        
+        /* Titles */
+        
+        color: #30417D;
+    }
+    .credit-card-information{
+    position: absolute;
+    width: 360px;
+    height: 316px;
+    top: 73px;
+    display: none;
+    
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBF3FF 100%);
+    }
+
+    .top-left-locker{
+        position: absolute;
+        width: 41px;
+        height: 37px;
+        left: 27px;
+        top: 22px;
+        
+        background: #009E23;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .top-left-locker img{
+        position: absolute;
+        left: 13.33px;
+        top: 9.67px;
+    }
+    .top-left-text{
+        position: absolute;
+        width: 306px;
+        height: 37px;
+        left: 27px;
+        top: 22px;
+        
+        background: #00BE2A;
+        border-radius: 4px;
+    }
+    .top-left-text h1{
+        position: absolute;
+        width: 240px;
+        height: 21px;
+        left: 52px;
+        top: 7px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+    }
+
+    .card-number-container{
+        position: absolute;
+        width: 306px;
+        height: 42px;
+        left: 27px;
+        top: 78px;
+        
+        background: #FFFFFF;
+        border: 1px solid #5B8FFF;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #616161;
+    }
+    .card-number-container::placeholder{
+        position: absolute;
+        width: 100px;
+        height: 18px;
+        margin: 0%;
+        top: 13px;
+        left: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #B8C0CB;
+    }
+
+
+    .card-number-icon{
+        position: absolute;
+        left: 302px;
+        top: 89px;
+    }
+
+    .name-card{
+        position: absolute;
+        width: 306px;
+        height: 42px;
+        left: 27px;
+        top: 131px;
+        
+        border: 1px solid #5B8FFF;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #616161;
+    }
+
+    .name-card::placeholder{
+        position: absolute;
+        width: 130px;
+        height: 18px;
+        margin: 0%;
+        top: 13px;
+        left: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #B8C0CB;   
+    }
+
+    .card-month{
+        position: absolute;
+        width: 149px;
+        height: 42px;
+        left: 27px;
+        top: 184px;
+        
+        background: #FFFFFF;
+        border: 1px solid #5B8FFF;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #616161;
+    }
+
+    .card-month::placeholder{
+        position: absolute;
+        width: 52px;
+        height: 18px;
+        margin: 0%;
+        top: 13px;
+        left: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #B8C0CB;   
+    }
+
+
+    .card-cw{
+        position: absolute;
+        width: 149px;
+        height: 42px;
+        left: 184px;
+        top: 184px;
+        
+        background: #FFFFFF;
+        border: 1px solid #5B8FFF;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #616161;  
+    }
+
+    .card-cw::placeholder{
+        position: absolute;
+        width: 52px;
+        height: 18px;
+        margin: 0%;
+        top: 13px;
+        left: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: #B8C0CB;    
+    }
+
+    .icon-cw{
+        position: absolute;
+        left: 300px;
+        top: 195px;
+    }
+    .complete-payment{
+        position: absolute;
+        width: 260px;
+        height: 52px;
+        left: 50px;
+        top: 245px;
+        border: none;
+        
+        /* blue gradient */
+        
+        background: linear-gradient(180deg, #006EFF 0%, #004AD9 100%);
+        border-radius: 8px;
+    }
+
+    .complete-payment-text{
+        position: absolute;
+        width: 146px;
+        height: 16px;
+        left: 55.95px;
+        top: 18px;
+        margin: 0%;
+        text-decoration: none;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .bit-pay{
+        width: 360px;
+        height: 72px;
+        top: 71px;
+        position: absolute;
+        
+        background: #fff;
+        border: 1px solid #EBF3FF;
+        box-sizing: border-box;
+    }
+
+    .bit-pay-img{
+        position: relative;
+        top: -6px;
+
+    }
+
+    .bit-pay-currency{
+        position: relative;
+        width: 360px;
+        height: 403px;
+        top: 72px;
+        z-index: -2;
+        display: none;
+        background: linear-gradient(180deg, #FFFFFF 0%, #EBF3FF 100%);
+    }
+
+    .choose-currency{
+        position: absolute;
+        width: 175px;
+        height: 48px;
+        left: 16px;
+        top: 21px;
+        
+        background: #0146C2;
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    .choose-currency h1{
+        position: absolute;
+        width: 121px;
+        height: 16px;
+        left: 27px;
+        top: 16px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 700';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        
+        
+        color: #FFFFFF;
+    }
+
+    .input-crypto{
+        position: absolute;
+        z-index: 1;
+        margin: 0%;
+        top: 20px;
+        left: 26px;
+        width: 20px;
+        height: 20px;
+    }
+    .crypto-ico{
+        position: absolute;
+        left: 58px;
+        top: 17px;
+        margin: 0%;
+    }
+    .crypto-name{
+        position: absolute;
+        width: 130px;
+        height: 26px;
+        left: 93px;
+        top: 17px;
+        margin: 0%;
+        
+        font-family: 'Helvetica Now Display 500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        
+        /* Titles */
+        
+        color: #30417D;
+    }
+
+    .crypto-container{
+        position: absolute;
+        width: 328px;
+        height: 60px;
+        left: 16px;
+        top: 76px;
+        
+        background: #FFFFFF;
+        border: 1px solid #EBF3FF;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .crypto-payment{
+        position: relative;
+        width: 326px;
+        height: 206px;
+        top: 50px;
+        z-index: -1;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        /* bar shadow payment method */
+        
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 6px 6px;
+        display: none;
+    }
+
+    .crypto-payment-text{
+        position: absolute;
+        width: 277px;
+        height: 69px;
+        left: 22px;
+        top: 40px;
+        margin: 0%;
+        
+        font-family:'Helvetica Now Text';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 165%;
+        /* or 23px */
+        
+        text-align: center;
+        
+        color: #30407D;
+    }
+
+    .crypto-payment-button{
+        position: absolute;
+        width: 260px;
+        height: 52px;
+        left: 34px;
+        top: 135px;
+        border: none;
+        
+        /* blue gradient */
+        
+        background: linear-gradient(180deg, #006EFF 0%, #004AD9 100%);
+        border-radius: 8px;
+    }
+
+    .payment-link{
+        position: absolute;
+        width: 146px;
+        height: 16px;
+        left: 55.95px;
+        top: 18px;
+        margin: 0%;
+        text-decoration: none;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .bit-pay-2{
+        position: relative;
+        width: 360px;
+        height: 73px;
+        top: 69px;
+        
+        background: #FFFFFF;
+        border: 1px solid #EBF3FF;
+        box-sizing: border-box;
+    }
+
+    .bit-pay-3{
+        position: relative;
+        width: 360px;
+        height: 73px;
+        top: 70px;
+        
+        background: #FFFFFF;
+        border: 1px solid #EBF3FF;
+        box-sizing: border-box;
+    }
+
+    .move-down-bit-2{
+        top: 473px;
+    }
+  
+
+    .move-down-bit-3{
+        top: 71px;
+    }
+    
+    .move-down-cc-3{
+        top: 71px;
+    }
+
+    .move-down-bit-2-active{
+        top: 673px;
+    }
+
+    .move-down-bit-2-active-lao{
+        top: 673px;
+    }
+    .move-down-bit-2-active-eth{
+        top: 673px;
+    }
+    .move-down-bit-2-active-abc{
+        top: 673px;
+    }
+    .move-down-bit-2-active-fdb{
+        top: 673px;
+    }
+
+    .move-down-bit-cc{
+        top: 792px !important;
+    }
+
+
+    .margin-top-1{
+        top: 139px;
+    }
+
+    .margin-top-2{
+        top: 202px;
+    }
+    .margin-top-3{
+        top: 265px;
+    }
+    .margin-top-4{
+        top: 328px;
+    }
+
+    /* Javascript Classes */
+    .body-change-eth{
+        height: 606px;
+    }
+    .body-change-btc{
+        height: 606px;
+    }
+    .body-change-lao{
+        height: 606px;
+    }
+    .body-change-abc{
+        height: 606px;
+    }
+    .body-change-fdb{
+        height: 606px;
+    }
+    .move-down-cc{
+        top: 390px;
+    }
+    .move-down-cc-2{
+        top: 388px;
+    }
+
+    .hide{
+        display: none !important; 
+    }
+    .first-lao-margin{
+        top: 340px;
+    }
+    .eth-change-btc{
+        top: 404px;
+    }
+    .abc-change-btc{
+        top: 468px;
+    }
+    .fdb-change-btc{
+        top: 532px;
+    }
+    .eth-change-lao{
+        top: 400px;
+    }
+    .abc-change-lao{
+        top: 463px;
+    }
+    .fdb-change-lao{
+        top: 526px;
+    }
+    .abc-change-eth{
+        top: 463px;
+    }
+
+    .fdb-change-abc{
+        top: 526px;
+    }
+    .fdb-change-eth{
+        top: 526px;
+    }
+    .shadow{
+        
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .opacity{
+        opacity: 40%;
+    }
+
+    
+    .change{
+        display: block;
+        }
